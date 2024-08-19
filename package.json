@@ -1,0 +1,18 @@
+{
+  "name": "2fa_authonticator_totp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "papun",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-json-db": "^2.3.0",
+    "qrcode": "^1.5.4",
+    "speakeasy": "^2.0.0"
+  },
+  "type": "module"
+}
